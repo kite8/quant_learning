@@ -1,0 +1,53 @@
+/////////////
+六个免费的下载，其实并不免费
+https://zhuanlan.zhihu.com/p/31480614
+
+最新维普入口+西夏资源账号+CNKI账号+万方账号密码
+
+地址：http://202.96.31.42:9080/wenxian/index.htm
+
+几组CNKI帐号 www.cnki.net 
+帐号/密码： 
+gitlibrary01/gitlibrary01 
+gitlibrary02/gitlibrary02 
+gitlibrary03/gitlibrary03 
+gitlibrary04/gitlibrary04 
+gitlibrary05/gitlibrary05
+
+维普入口：可以下载全文的维普入口[《中文科技期刊数据库》（全文版）]
+http://58.49.104.243:8000/index.asp
+
+万方数据http://www.shwanfangdata.com 
+用户名：jyxy 密码:jswxjy
+
+/////////////
+Congratulations, install completed!
+========================= Your Server Setting =========================
+Your Server IP: 35.220.192.170
+-------------------- Shadowsocksrr Setting --------------------
+SSRR configure file         : /usr/local/shadowsocksrr/user-config.json
+SSRR Server Port            : 4862
+SSRR Password               : Hao54321.
+SSRR Encryption Method      : chacha20-ietf
+SSRR protocol               : auth_chain_d
+SSRR obfs                   : plain
+----------------------------------------------------------
+SSRR status manage: /etc/init.d/ssrr {start|stop|restart|status|config|version}
+==========================================================
+-------------------- KCPTUN Setting --------------------
+Kcptun configure file     : /usr/local/kcptun/config.json
+Kcptun Server Port        : 666
+Kcptun Key                : Hao54321.
+Kcptun Crypt mode         : aes-192
+Kcptun Fast mode          : fast3
+Kcptun MTU                : 1350
+Kcptun sndwnd             : 1024
+Kcptun rcvwnd             : 1024
+Kcptun compression        : enable
+----------------------------------------------------------
+Kcptun config for SS/SSR/Phone:
+KCP Port      : 666
+KCP parameter : --crypt aes-192 --key Hao54321. --mtu 1350 --sndwnd 128 --rcvwnd 1024 --mode fast3
+----------------------------------------------------------
+Kcptun status manage: /etc/init.d/kcptun {start|stop|restart|status|config|version}
+==========================================================
