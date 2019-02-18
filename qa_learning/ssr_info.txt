@@ -24,6 +24,78 @@ http://58.49.104.243:8000/index.asp
 ”√ªß√˚£∫jyxy √‹¬Î:jswxjy
 
 /////////////
+
+
+/////////////////////////
++----------------------------------------------------------------+
+|                        Manager for kcptun                      |
++----------------------------------------------------------------+
+| Intro: https://github.com/onekeyshell/kcptun_for_ss_ssr/issues |
++----------------------------------------------------------------+
+
+Starting kcptun... done
+kcptun version 20181114
+kcptun (pid 3025)is running.
+kcptun start success!
++ firewall set start...
++ Firewalld looks like not running, try to start...
+Warning: ALREADY_ENABLED: 4862:tcp
+success
+Warning: ALREADY_ENABLED: 4862:udp
+success
+Warning: ALREADY_ENABLED: 666:udp
+success
+success
++ firewall set completed...
+
+
++----------------------------------------------------------------+
+|                KCPTUN for SS/SSR on Linux Server               |
++----------------------------------------------------------------+
+|  A tool to auto-compile & install KCPTUN for SS/SSR on Linux   |
++----------------------------------------------------------------+
+| Intro: https://github.com/onekeyshell/kcptun_for_ss_ssr/issues |
++----------------------------------------------------------------+
+
+Congratulations, install completed!
+========================= Your Server Setting =========================
+Your Server IP: 67.216.219.219
+-------------------- Shadowsocksrr Setting --------------------
+SSRR configure file         : /usr/local/shadowsocksrr/user-config.json
+SSRR Server Port            : 4862
+SSRR Password               : Hao54321.
+SSRR Encryption Method      : chacha20-ietf
+SSRR protocol               : auth_chain_d
+SSRR obfs                   : plain
+----------------------------------------------------------
+SSRR status manage: /etc/init.d/ssrr {start|stop|restart|status|config|version}
+==========================================================
+-------------------- KCPTUN Setting --------------------
+Kcptun configure file     : /usr/local/kcptun/config.json
+Kcptun Server Port        : 666
+Kcptun Key                : Hao54321.
+Kcptun Crypt mode         : aes-192
+Kcptun Fast mode          : fast3
+Kcptun MTU                : 1350
+Kcptun sndwnd             : 1024
+Kcptun rcvwnd             : 1024
+Kcptun compression        : enable
+----------------------------------------------------------
+Kcptun config for SS/SSR/Phone:
+KCP Port      : 666
+KCP parameter : --crypt aes-192 --key Hao54321. --mtu 1350 --sndwnd 128 --rcvwnd 1024 --mode fast3
+----------------------------------------------------------
+Kcptun status manage: /etc/init.d/kcptun {start|stop|restart|status|config|version}
+==========================================================
+
+
+
+
+
+////////////////////////
+
+
+
 Congratulations, install completed!
 ========================= Your Server Setting =========================
 Your Server IP: 35.220.192.170
