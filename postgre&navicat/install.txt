@@ -1,0 +1,3 @@
+1. 安装postgresql, 得cd到下载的exe路径，exe后面添加--install_runtimes 0参数进行安装
+2. 安装Navicat， 安装之后，运行Patch，运行patch的exe，然后点generate，生成激活码；
+3. 在图形界面里激活，提示手动激活
